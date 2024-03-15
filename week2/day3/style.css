@@ -1,0 +1,435 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 62, 80);
+}
+
+nav {
+ 
+    width: 90%;
+
+}
+
+.container_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.navlist_item {
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+h1 {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    color: #1ABC9C;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+
+
+.img {
+    width: 250px;
+    height: 250px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.75em;
+    font-weight: bold;
+    color: white;
+
+}
+
+@media screen and (max-width: 480px) {
+    .info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+}
+
+.icons {
+    margin: 1%;
+    color: white;
+    font-size: 30px;
+
+}
+
+.info2 {
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width: 410px) {
+    .info2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.nav_btn {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .nav_btn {
+        display: flex;
+
+    }
+
+    .nav_list {
+        display: none;
+    }
+
+}
+
+.nav_btn {
+
+    border-radius: 15%;
+    background-color: #1ABC9C;
+
+}
+
+.btn {
+    padding: 8px 16px;
+}
+
+.cards {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.card {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-color: #1ABC9C;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+    border-radius: 10px;
+}
+
+.card:hover .overlay {
+    display: flex;
+}
+.hover_class{
+    font-size: 70px;
+    color: white;
+}
+
+.info3 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #2C3E50;
+    letter-spacing: 3px;
+
+}
+
+.icons2 {
+    font-size: 30px;
+    margin: 1%;
+    color: #2C3E50;
+
+}
+
+.card_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+@media screen and (max-width: 750px) {
+    .card_img {
+        display: block;
+
+    }
+
+    .card_img2 {
+        display: block;
+        flex-direction: column;
+    }
+
+    .about_info {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot {
+        flex-direction: column;
+    }
+}
+
+.img {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+
+
+}
+
+.img img {
+    border-radius: 10px;
+
+}
+
+.card_img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+.about {
+    width: 100%;
+    /* height: 80vh; */
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.info4 {
+
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+.icons3 {
+    font-size: 30px;
+    margin: 1%;
+    color: white;
+
+
+}
+
+.info {
+    width: 50%;
+    font-size: 20px;
+
+}
+
+.about_info {
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    width: 80%;
+}
+
+.aboutbtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1ABC9C;
+    color: white;
+    border-color: white;
+
+}
+.about_btn{
+    padding-bottom: 50px;
+}
+
+.contact {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info5 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #2C3E50;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.icons4 {
+
+    font-size: 30px;
+    margin: 1%;
+    color: #2C3E50;
+
+}
+
+.contact-form {
+    width: 100%;
+
+}
+
+.input {
+    padding: 30px;
+
+}
+
+#name {
+    width: 100%;
+    height: 50px;
+
+}
+
+#email {
+    width: 100%;
+    height: 50px;
+}
+
+#phone {
+    width: 100%;
+    height: 50px;
+}
+
+#message {
+    width: 100%;
+    height: 50px;
+}
+
+#input_btn {
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #1ABC9C;
+    color: white;
+    border-style: none;
+
+
+
+}
+
+.foot {
+    width: 100%;
+    /* height: 40vh; */
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+.foot1_info2 {
+    width: 200px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.foot2_info2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 40px;
+    gap: 15px;
+    margin-left: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+.foot3_info2 {
+    width: 300px;
+    color: white;
+    margin-top: 20px;
+}
+
+.ahref {
+    color: #1ABC9C;
+}
