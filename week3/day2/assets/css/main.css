@@ -185,6 +185,7 @@
   border-bottom: 1px solid rgb(206, 206, 206);
   font-size: 25px;
   max-width: 310px;
+  resize: vertical;
 }
 .hero2_contact .form .btn_div {
   width: 100px;
@@ -400,7 +401,7 @@
 .hero_post .info_post h3 {
   color: white;
   font-size: 63px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 .hero_post .info2_post {
   width: 55%;

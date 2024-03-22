@@ -296,7 +296,12 @@ img {
 
 
 }
-
+diso
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .info {
     width: 50%;
     font-size: 20px;
