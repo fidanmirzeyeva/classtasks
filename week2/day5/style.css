@@ -1,11 +1,387 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     align-items: center;
 
+
+}
+
+nav {
+    width: 90%;
+
+
+}
+
+.nav_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.navlist_item {
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.nav_head h1 {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 3px;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    color: grey;
+}
+
+.nav_btn {
+    display: none;
+}
+
+@media screen and (max-width: 990px) {
+    .nav_btn {
+        display: flex;
+    }
+
+    .nav_list {
+        display: none;
+    }
+}
+
+.nav_btn {
+    border-radius: 20%;
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    width: 100%;
+    height: 150vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+/* .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background-color: black;
+} */
+.back_img {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 100px;
+    letter-spacing: 15px;
+    opacity: 0.6;
+
+}
+
+.hero_info2 p {
+
+    font-size: 25px;
+    opacity: 0.6;
+
+}
+
+.hero_info2 {
+    width: 75%;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.btn2 {
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #64A19D;
+
+
+}
+
+.hero_btn {
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero_info3 h3 {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 15px;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.hero_info3 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-bottom: 20px;
+
+
+}
+
+
+.hero_info4 p {
+    color: white;
+    font-size: 25px;
+    opacity: 0.6;
+    text-align: center;
+
+}
+
+.hero_info4 {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero_info4_a {
+    color: #64A19D;
+
+}
+
+@media screen and (max-width: 990px) {
+    .back_img {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* margin-left: 10px;
+        margin-right: 10px; */
+
+    }
+
+}
+
+.hero2 {
+    width: 100%;
+    height: 64vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/ipad.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+
+.overlay2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    background-color: black;
+}
+
+.hero3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.hero3_img {
+    width: 55%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+
+}
+
+
+.hero3_column {
+    background-color: #64A19D;
+    width: 10px;
+    height: 150px;
+ 
+}
+.hero3_info{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.shoreline{
+    font-size: 25px;
+    padding-bottom: 15px;
+    opacity: 0.7;
+
+}
+
+.shoreline_info {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.shoreline_info p {
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+
+}
+.four_img{
+  width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.class{
+    max-width: 1030px;
+    max-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card1{
+    max-width: 515px;
+   
+}
+.card2{
+   max-width: 515px;
+   height: 320px;
+    background-color: black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.card2_info{
+    color: white;
+    text-align: center;
+    /* padding-bottom: 20px; */
+}
+.card2_info2{
+    width: 70%;
+    color: white;
+    text-align: center;
+    opacity: 0.6    ;
+
+}
+.class2{
+    max-width: 1030px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 100px; */
+
+}
+.card3{
+   
+   max-width: 515px;
+   height: 320px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card3_info{
+    color: white;
+    text-align: center;
+    /* padding-bottom: 20px; */
+}
+.card3_info2{
+    width: 70%;
+    color: white;
+    text-align: center;
+    opacity: 0.6    ;
+
+}
+.card4{
+    max-width: 515px;
+   
 }
