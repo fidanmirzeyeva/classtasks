@@ -349,7 +349,7 @@
   width: 350px;
   height: 450px;
   border-radius: 7px;
-  box-shadow: 3px 3px 3px 3px rgb(165, 163, 163);
+  box-shadow: 2px 2px 2px 2px rgb(214, 212, 212);
 }
 .container .container_cards .card img {
   height: 200px;
@@ -397,13 +397,9 @@
   min-height: 150px;
   background-color: #287EFC;
   border-radius: 7px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: block;
 }
 .container .blue .blue_info {
-  display: flex;
-  flex-direction: column;
   gap: 10px;
 }
 .container .blue .blue_info .info1 p {
@@ -415,11 +411,4 @@
   color: white;
   font-size: 17 px;
   opacity: 0.6;
-}
-.container .blue .blue_info2 .blue_btn {
-  width: 250px;
-}
-.container .blue .blue_info2 .blue_btn .input {
-  width: 180px;
-  height: 30px;
 }/*# sourceMappingURL=main.css.map */

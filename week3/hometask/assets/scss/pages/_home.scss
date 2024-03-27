@@ -328,7 +328,7 @@
             height: 450px;
             border-radius: 7px;
             // background-color: green;
-            box-shadow: 3px 3px 3px 3px rgb(165, 163, 163);
+            box-shadow: 2px 2px 2px 2px rgb(214, 212, 212);
             
             
             img{
@@ -386,12 +386,10 @@
         min-height: 150px;
         background-color: #287EFC;
         border-radius: 7px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        display: block;
         .blue_info{
-            display: flex;
-            flex-direction: column;
+            // display: flex;
+            // flex-direction: column;
             gap: 10px;
             .info1{
                 p{
@@ -408,15 +406,7 @@
             }
 
         }
-        .blue_info2{
-            .blue_btn{
-                width: 250px;
-                .input{
-                    width: 180px;
-                    height: 30px;
-                }
-            }
-        }
+        
     }
 }
 
